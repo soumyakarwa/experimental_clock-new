@@ -31,7 +31,7 @@ function setup() {
   screen_two_location = [screen_one_location[0]+sky_size+margin, margin];   
   description_location = [screen_two_location[0]+sky_size+margin, margin]; 
   sky_location = [0, margin]; 
-  speed_location = [0, margin]; 
+  speed_location = [0, margin+10]; 
   distance_location = [speed_location[0], speed_location[1] + 2*margin]; 
   time_location = [speed_location[0], distance_location[1] + 2*margin]; 
   explanation_location = [speed_location[0], time_location[1]+2*margin, speed_location[0]+5.5*margin, speed_location[1]+sky_size]; 
