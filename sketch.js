@@ -75,7 +75,7 @@ function draw() {
   for(i = 0; i < number_of_stars; i++){
     if(frameCount > star_distance[i]/velocity * frame){
       noStroke(); 
-      fill(255, 255, 255, random(150, 255)); 
+      fill(255, 255, 255, random(100, 255)); 
       ellipse(star_location_x[i], star_location_y[i], star_size[i]); 
       fill(0); 
     }
